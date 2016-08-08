@@ -1,0 +1,12 @@
+#pod update --verbose --no-repo-update
+platform :ios, "9.2"
+use_frameworks!
+
+#v2exProject 为你的项目名称
+target 'v2exProject' do
+    pod 'Alamofire', '~> 2.0.0'      #  网络库
+    pod 'Kingfisher', '~> 2.1.0'     #  setImageWithURL
+    pod 'ObjectMapper','~> 1.1.1'    #  model映射
+    pod 'SnapKit','~> 0.18.0'        # autolayou库
+    pod 'SwiftDate'
+end
